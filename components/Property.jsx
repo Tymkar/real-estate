@@ -43,9 +43,29 @@ const Property = ({
           <Flex alignItems="center">
             <Box paddingRight="3" color="green.400">
               {isVerified && <GoVerified />}
+              <Text fontWeight="bold" fontSize="lg">
+                AED {millify(price)}
+                {rentFrequency && `/${rentFrequency}`}
+              </Text>
             </Box>
           </Flex>
+          <Box>
+            <Avatar size="sm" src={agency?.logo?.url} />
+          </Box>
         </Flex>
+        <Flex
+          alignItems="center"
+          p="1"
+          justifyContent="space-beetween"
+          w="250px"
+          color="blue.200"
+        >
+          {rooms} <FaBed /> | {baths} <FaBath /> | {millify(area)} sqft{" "}
+          <BsGridFill />
+        </Flex>
+        <Text fontSize="lg">
+          {title.length > 30 ? `${title.substring(0, 30)}...` : title}
+        </Text>
       </Box>
     </Flex>
   </Link>
