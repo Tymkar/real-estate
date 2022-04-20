@@ -58,9 +58,9 @@ const Property = ({
           p="1"
           justifyContent="space-beetween"
           w="250px"
-          color="blue.200"
+          color="blue.300"
         >
-          {rooms} <FaBed /> | {baths} <FaBath /> | {millify(area)} sqft{" "}
+          {rooms} - <FaBed /> | {baths} - <FaBath /> | {millify(area)} sqft -{" "}
           <BsGridFill />
         </Flex>
         <Text fontSize="lg">
