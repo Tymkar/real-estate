@@ -1,5 +1,9 @@
 Real Estate app with API data, property filtering, images and details
 
+Deployed on Vercel:
+
+https://real-estate-tymkar.vercel.app/
+
 Used Technology:
 
 ChakraUI
