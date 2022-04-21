@@ -17,3 +17,5 @@ React-icons
 Babel
 
 ESlint
+
+Prettier
