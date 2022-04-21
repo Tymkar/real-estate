@@ -13,3 +13,7 @@ Framer Motion
 Axios
 
 React-icons
+
+Babel
+
+ESlint
