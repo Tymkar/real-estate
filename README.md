@@ -2,7 +2,7 @@ Real Estate app with API data, property filtering, images and details
 
 Deployed on Vercel:
 
-https://real-estate-tymkar.vercel.app/
+https://real-estate-tawny-seven.vercel.app/
 
 Used Technology:
 
